@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Yonsei University, Department of Computer Science and Engineering
+subtitle:
 
 profile:
   align: right
@@ -27,8 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-# IDEA Team
-
 Welcome to the IDEA Team, part of the Human-Data Interaction Lab (HDIL) at Yonsei University.
 
 Our research focuses on:
@@ -36,9 +34,3 @@ Our research focuses on:
 - **HCI (Human-Computer Interaction)**: Designing intuitive and effective interfaces for human-computer collaboration
 - **HAI (Human-AI Interaction)**: Exploring the interaction between humans and artificial intelligence systems
 - **Data Visualization**: Creating visual representations of complex data to support decision-making and insight discovery
-
-## Contact Information
-
-**Office Hours**: Thursday 10am-noon
-
-For inquiries, please contact us via email.
