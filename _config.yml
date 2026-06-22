@@ -2,19 +2,17 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: IDEA Lab # the website title (if blank, full name will be used instead)
-first_name: Your
-middle_name:
-last_name: Name
+title: HDIL # the website title (if blank, full name will be used instead)
+first_name: Human-Data
+middle_name: Interaction
+last_name: Lab
 contact_note: >
-  Feel free to reach out via email.
+  Office Hours: Thu 10am-noon
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  IDEA Lab - Research and Innovation in AI and Data Engineering
+  Human-Data Interaction Lab (HDIL) at Yonsei University. Research in HCI, HAI, and Data Visualization.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+  Engineering Hall 4, Room D718, 50 Yonsei-ro, Seodaemun-gu, Seoul, Republic of Korea, 03722
+keywords: HCI, HAI, Data Visualization, Human-Computer Interaction, Human-AI Interaction, Yonsei University # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
