@@ -1,0 +1,34 @@
+<style>
+/* Custom logo and title for IDEA Team */
+header.navbar .navbar-brand::before {
+  content: '';
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  background-image: url('{{ "/assets/img/Yonsei_Logo.png" | relative_url }}');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+header.navbar .navbar-brand {
+  display: flex !important;
+  align-items: center;
+  font-size: 0;
+}
+
+header.navbar .navbar-brand::after {
+  content: 'IDEA Team';
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--global-text-color);
+  margin-left: 8px;
+}
+
+/* Hide the default site title */
+header.navbar .navbar-brand .font-weight-bold {
+  display: none;
+}
+</style>

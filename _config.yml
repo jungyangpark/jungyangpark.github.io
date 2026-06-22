@@ -88,6 +88,10 @@ socials_in_search: true
 posts_in_search: true
 bib_search: true
 
+# Logo settings
+logo: /assets/img/Yonsei_Logo.png
+logo_text: IDEA Team
+
 # Dimensions
 max_width: 930px
 

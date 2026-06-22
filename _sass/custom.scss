@@ -1,0 +1,30 @@
+// Custom styles for IDEA Team website
+
+// Add logo to navigation bar
+header.navbar {
+  .container {
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      background-image: url('/assets/img/Yonsei_Logo.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-right: 15px;
+      vertical-align: middle;
+    }
+  }
+}
+
+// Add IDEA Team text next to logo
+header.navbar .navbar-brand {
+  &::before {
+    content: 'IDEA Team';
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 30px;
+    color: var(--global-text-color);
+  }
+}
