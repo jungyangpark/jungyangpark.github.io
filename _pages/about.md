@@ -27,9 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-# Human-Data Interaction Lab (HDIL)
+# IDEA Team
 
-Welcome to the Human-Data Interaction Lab at Yonsei University. Our research focuses on:
+Welcome to the IDEA Team, part of the Human-Data Interaction Lab (HDIL) at Yonsei University.
+
+Our research focuses on:
 
 - **HCI (Human-Computer Interaction)**: Designing intuitive and effective interfaces for human-computer collaboration
 - **HAI (Human-AI Interaction)**: Exploring the interaction between humans and artificial intelligence systems
