@@ -31,4 +31,51 @@ header.navbar .navbar-brand::after {
 header.navbar .navbar-brand .font-weight-bold {
   display: none;
 }
+
+/* Equal width columns for about page - KIXLAB style */
+.about .container {
+  max-width: 100% !important;
+  padding: 0 40px;
+}
+
+.about .post {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 40px !important;
+  align-items: start !important;
+}
+
+/* Text content column */
+.about .post > div:first-child {
+  order: 1;
+}
+
+/* Profile column */
+.about .profile {
+  order: 2 !important;
+  width: 100% !important;
+  margin: 0 !important;
+  float: none !important;
+}
+
+.about .profile img {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 768px) {
+  .about .post {
+    grid-template-columns: 1fr !important;
+  }
+
+  .about .profile {
+    order: 1 !important;
+  }
+
+  .about .post > div:first-child {
+    order: 2;
+  }
+}
 </style>
