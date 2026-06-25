@@ -6,8 +6,7 @@ title: IDEA # the website title (if blank, full name will be used instead)
 first_name: IDEA
 middle_name:
 last_name: Team
-contact_note: >
-  Office Hours: Thu 10am-noon
+contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   IDEA Team - Part of Human-Data Interaction Lab (HDIL) at Yonsei University. Research in HCI, HAI, and Data Visualization.
 footer_text: >

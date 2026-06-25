@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2026-06-22 15:59:00-0400
-inline: true
+title: Example News
+date: 2026-06-22
+inline: false
 related_posts: false
 ---
 
-Lab webpage Open!
+Example News Example News Example News Example News Example News Example News 

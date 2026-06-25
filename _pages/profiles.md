@@ -133,7 +133,7 @@ nav_order: 2
     </div>
     <!--  -->
     <div class="person-card">
-      <img src="/assets/img/profile/student3.jpg" alt="student3">
+      <img src="/assets/img/profile/Janghan_Yoon.jpg" alt="student3">
       <h4> student3 </h4>
       <div class="course"> PhD </div>
       <div class="person-links">
@@ -142,7 +142,7 @@ nav_order: 2
     </div>
     <!--  -->
     <div class="person-card">
-      <img src="/assets/img/profile/student4.jpg" alt="student4">
+      <img src="/assets/img/profile/Janghan_Yoon.jpg" alt="student4">
       <h4> student4 </h4>
       <div class="course"> M.S. Student </div>
       <div class="person-links">

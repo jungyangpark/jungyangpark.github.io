@@ -14,6 +14,7 @@ papers:
     topics:
       - human-ai-interaction
     type: conference
+    selected: true
     # award: "Honorable Mention Award"
     links:
       - type: acm
@@ -28,9 +29,27 @@ papers:
       - human-ai-interaction
     type: conference
     # award: "Honorable Mention Award"
+    selected: false
     links:
       - type: acm
-        url: "https://doi.org/10.1145/3772318.3790541"
+        url: "https://doi.org/10.1145/3772318.3790572"
       - type: arxiv
         url: "https://arxiv.org/abs/2507.11628"
     preview: "CHI26_DiaryPlay.png"
+
+
+  - title: "Cerebra: Aligning Implicit Knowledge in Interactive SQL Authoring"
+    author: "Yunfan Zhou, Qiming Shi, Zhongsu Luo, Xiwen Cai, Yanwei Huang, _Dae Hyun Kim_, Di Weng, and Yingcai Wu"
+    year: 2026
+    venue: "CHI 2026"
+    topics:
+      - human-ai-interaction
+    type: conference
+    selected: true
+    # award: "Honorable Mention Award"
+    links:
+      - type: acm
+        url: "https://doi.org/10.1145/3772318.3790974"
+      - type: arxiv
+        url: "https://arxiv.org/abs/2603.21363"
+    preview: "CHI26_Cerebra.png"
