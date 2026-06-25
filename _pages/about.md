@@ -5,8 +5,8 @@ permalink: /
 subtitle:
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: center
+  image: # prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info:
 
@@ -20,6 +20,66 @@ announcements:
 
 ---
 
+<style>
+.page-heading {
+  display: none !important;
+}
+h1.post-title {
+  display: none !important;
+}
+/* .profile {
+  float: none !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+.profile img {
+  margin: 0 auto !important;
+} */
+.image-grid {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+.main-image {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+.main-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* .side-image {
+  width: 100%;
+  height: 200px;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+.side-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+</style>
+
+<div class="image-grid">
+  <div class="main-image">
+    <img src="/assets/img/main_pic1.jpg" alt="Main image">
+  </div>
+  <!-- <div class="side-image">
+    <img src="/assets/img/main_pic2.jpg" alt="Image 2">
+  </div>
+  <div class="side-image">
+    <img src="/assets/img/main_pic3.jpg" alt="Image 3">
+  </div> -->
+</div>
+
 # WELCOME TO **IDEA TEAM**!
 
-## LAB Introducing texts
+LAB Introducing text LAB Introducing text LAB Introducing text LAB Introducing text LAB Introducing text LAB Introducing text LAB Introducing text LAB Introducing text LAB Introducing text 
+
+---

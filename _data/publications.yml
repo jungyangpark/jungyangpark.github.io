@@ -1,0 +1,36 @@
+# List of all existing venue types
+types:
+  - conference
+  - poster
+  - workshop
+  - journal
+  - preprint
+
+papers:
+  - title: "Understanding Spatiotemporal-Aware Multimodal Conversational Search in the Outdoor Urban Space"
+    author: "Jiangnan Xu, Suyeon Seo, Joni Salminen, Michael Saker, Joongi Shin, Alan Chamberlain, Konstantinos Papangelis, and _Dae Hyun Kim_"
+    year: 2026
+    venue: "CHI 2026"
+    topics:
+      - human-ai-interaction
+    type: conference
+    # award: "Honorable Mention Award"
+    links:
+      - type: acm
+        url: "https://doi.org/10.1145/3772318.3790541"
+    preview: "CHI26_UrbanSearch.png"
+
+  - title: "DiaryPlay: AI-Assisted Creation of Interactive Story Vignettes for Everyday Storytelling"
+    author: "Jiangnan Xu, Haeseul Cha, Gosu Choi, Gyu-cheol Lee, Yeo-Jin Yoon, Zucheul Lee, Konstantinos Papangelis, _Dae Hyun Kim_, and Juho Kim"
+    year: 2026
+    venue: "CHI 2026"
+    topics:
+      - human-ai-interaction
+    type: conference
+    # award: "Honorable Mention Award"
+    links:
+      - type: acm
+        url: "https://doi.org/10.1145/3772318.3790541"
+      - type: arxiv
+        url: "https://arxiv.org/abs/2507.11628"
+    preview: "CHI26_DiaryPlay.png"

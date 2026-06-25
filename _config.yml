@@ -90,7 +90,7 @@ bib_search: false
 
 # Logo settings
 logo: /assets/img/Yonsei_Logo.png
-logo_text: IDEA Team
+logo_text: IDEA
 
 # Dimensions
 max_width: 930px
@@ -241,6 +241,7 @@ exclude:
   - gems/
   - migrations/
   - vendor
+  - assets/jupyter/
 keep_files:
   - CNAME
   - .nojekyll
@@ -407,7 +408,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
