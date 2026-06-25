@@ -236,18 +236,23 @@ LAB Introducing text LAB Introducing text LAB Introducing text LAB Introducing t
         {{ paper.title }}
       </div>
       <div class="paper-authors">
-        {% assign author_parts = paper.author | split: '_' %}
+        {% assign author_string = paper.author | replace: '_, _', '_,_ _' | replace: '_,', ',_' %}
+        {% assign author_parts = author_string | split: '_' %}
         {% for part in author_parts %}
           {% assign index = forloop.index0 | modulo: 2 %}
           {% if index == 0 %}
-            {{ part }}
+            {{- part -}}
           {% else %}
-            <span class="emphasized">{{ part }}</span>
+            <span class="emphasized">{{- part -}}</span>
           {% endif %}
         {% endfor %}
       </div>
       <div class="paper-venue">
-        {{ paper.venue }}, {{ paper.year }}
+        {% if paper.type == "preprint" %}
+          {{ paper.venue }}
+        {% else %}
+          {{ paper.venue }} {{ paper.year }}
+        {% endif %}
       </div>
       <div class="paper-links">
         {% if paper.links %}

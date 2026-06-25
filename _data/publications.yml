@@ -8,9 +8,9 @@ types:
 
 papers:
   - title: "Understanding Spatiotemporal-Aware Multimodal Conversational Search in the Outdoor Urban Space"
-    author: "Jiangnan Xu, Suyeon Seo, Joni Salminen, Michael Saker, Joongi Shin, Alan Chamberlain, Konstantinos Papangelis, and _Dae Hyun Kim_"
+    author: "Jiangnan Xu, Suyeon Seo, Joni Salminen, Michael Saker, Joongi Shin, Alan Chamberlain, Konstantinos Papangelis, _Dae Hyun Kim_"
     year: 2026
-    venue: "CHI 2026"
+    venue: "CHI"
     topics:
       - human-ai-interaction
     type: conference
@@ -22,9 +22,9 @@ papers:
     preview: "CHI26_UrbanSearch.png"
 
   - title: "DiaryPlay: AI-Assisted Creation of Interactive Story Vignettes for Everyday Storytelling"
-    author: "Jiangnan Xu, Haeseul Cha, Gosu Choi, Gyu-cheol Lee, Yeo-Jin Yoon, Zucheul Lee, Konstantinos Papangelis, _Dae Hyun Kim_, and Juho Kim"
+    author: "Jiangnan Xu, Haeseul Cha, Gosu Choi, Gyu-cheol Lee, Yeo-Jin Yoon, Zucheul Lee, Konstantinos Papangelis, _Dae Hyun Kim_, Juho Kim"
     year: 2026
-    venue: "CHI 2026"
+    venue: "CHI"
     topics:
       - human-ai-interaction
     type: conference
@@ -37,11 +37,10 @@ papers:
         url: "https://arxiv.org/abs/2507.11628"
     preview: "CHI26_DiaryPlay.png"
 
-
   - title: "Cerebra: Aligning Implicit Knowledge in Interactive SQL Authoring"
-    author: "Yunfan Zhou, Qiming Shi, Zhongsu Luo, Xiwen Cai, Yanwei Huang, _Dae Hyun Kim_, Di Weng, and Yingcai Wu"
+    author: "Yunfan Zhou, Qiming Shi, Zhongsu Luo, Xiwen Cai, Yanwei Huang, _Dae Hyun Kim_, Di Weng, Yingcai Wu"
     year: 2026
-    venue: "CHI 2026"
+    venue: "CHI"
     topics:
       - human-ai-interaction
     type: conference
@@ -53,3 +52,17 @@ papers:
       - type: arxiv
         url: "https://arxiv.org/abs/2603.21363"
     preview: "CHI26_Cerebra.png"
+
+  - title: "This is ArXiv Test"
+    author: "_Jungyang Park_, _Janghan Yoon_, _Dae Hyun Kim_"
+    year: 2026
+    venue: "arXiv"
+    topics:
+      - human-ai-interaction
+    type: preprint
+    selected: false
+    # award: "Honorable Mention Award"
+    links:
+      - type: arxiv
+        url: "https://arxiv.org/abs/2603.21363"
+    preview: "NO IMG.png"
